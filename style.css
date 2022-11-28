@@ -1,0 +1,141 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* HEADER SECTION */
+
+.header {
+  margin-top: 2.5rem;
+}
+
+.header-box {
+  display: flex;
+  align-items: center;
+}
+
+.logo-box img {
+  width: 16.5rem;
+}
+
+.logo-box {
+  flex: 15%;
+  max-width: 15%;
+}
+
+.nav-box {
+  flex: 50%;
+  max-width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container {
+  max-width: 117rem;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list li {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.nav-list li:not(:first-child) {
+  list-style: none;
+  margin-left: 2.5rem;
+}
+
+.search-cta-box {
+  flex: 35%;
+}
+
+.search-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-cta .bar-box {
+  margin-left: 6rem;
+  padding-left: 1.4rem;
+}
+
+.bar-box input {
+  font-size: 1.5rem;
+  border: none;
+}
+
+.orange-btn:link,
+.orange-btn:visited {
+  background-color: #ffae25;
+  border-radius: 1rem;
+  padding: 1.5rem 3rem;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.orange-btn:hover,
+.orange-btn:active {
+  background-color: #161006;
+}
+
+.bar-box {
+  position: relative;
+}
+
+.bar-box a::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  transform: translate(0, -20%);
+  width: 1.4rem;
+  height: 1.4rem;
+  background: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"> <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" /> </svg>');
+}
+
+/* .search-cta a {
+  padding-left: 5rem;
+}
+
+.search-bar {
+  flex: 50%;
+} */
+
+/* .search-cta {
+  flex: 35%;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.search-cta input {
+  border: none;
+} */
+
+/* .cta {
+  flex: 50%;
+  text-decoration: none;
+} */
