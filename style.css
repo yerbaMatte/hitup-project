@@ -7,6 +7,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 0;
   margin: 0;
+  line-height: 2.5rem;
 }
 
 li {
@@ -22,6 +23,7 @@ a {
 
 .header {
   margin-top: 2.5rem;
+  position: relative;
 }
 
 .header-box {
@@ -87,6 +89,7 @@ a {
 
 .orange-btn:link,
 .orange-btn:visited {
+  box-shadow: 0.3rem 0.4rem 1.5rem rgba(0, 0, 0, 0.306);
   background-color: #ffae25;
   border-radius: 1rem;
   padding: 1.5rem 3rem;
@@ -116,26 +119,63 @@ a {
   background: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"> <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" /> </svg>');
 }
 
-/* .search-cta a {
-  padding-left: 5rem;
+/* MAIN SECTION */
+
+/* ABOUT SECTION */
+
+#about {
+  margin: 8rem 0 0 0;
+  padding: 12rem 0 12rem 0;
 }
 
-.search-bar {
-  flex: 50%;
-} */
-
-/* .search-cta {
-  flex: 35%;
+.about-box {
+  background-color: rgba(255, 255, 0, 0.418);
   display: flex;
-  position: relative;
-  align-items: center;
 }
 
-.search-cta input {
-  border: none;
-} */
+.man-box {
+  flex: 0 1 50%;
+  max-width: 50%;
+  padding: 0 1.5rem;
+}
 
-/* .cta {
-  flex: 50%;
-  text-decoration: none;
-} */
+.man-box-img {
+  align-self: stretch;
+  position: relative;
+}
+
+.man-box-img-absolute {
+  position: absolute;
+  top: 3rem;
+  right: 0;
+}
+
+.man-img {
+  top: 0;
+  left: 0;
+}
+
+.man-content {
+  flex: 0 1 50%;
+  padding: 0 1.5rem;
+}
+
+.man-content p {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.man-content a {
+  margin-top: 1.5rem;
+}
+
+.man-content h2 {
+  line-height: 5.2rem;
+  font-size: 4.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.man-title {
+  margin-bottom: 5rem;
+}
