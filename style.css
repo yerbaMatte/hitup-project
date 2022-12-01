@@ -97,6 +97,7 @@ a {
   font-weight: 600;
   font-size: 1.6rem;
   text-align: center;
+  white-space: nowrap;
 }
 
 .orange-btn:hover,
@@ -106,6 +107,7 @@ a {
 
 .bar-box {
   position: relative;
+  display: flex;
 }
 
 .bar-box a::before {
@@ -113,50 +115,125 @@ a {
   content: '';
   left: 0;
   bottom: 0;
-  transform: translate(0, -20%);
+  transform: translate(0, -50%);
   width: 1.4rem;
   height: 1.4rem;
   background: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"> <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" /> </svg>');
 }
 
+.search-box {
+  margin-left: 10px;
+}
+
+.search-box:focus {
+  outline: none;
+}
+
 /* MAIN SECTION */
+#s-main {
+  margin-top: -12rem;
+  position: relative;
+  min-height: 90rem;
+}
+
+.content-main {
+  background-image: url(./assets/header-bg.png);
+  background-repeat: no-repeat;
+  background-position: 99rem 0;
+  background-size: inherit;
+  min-height: 90rem;
+  display: flex;
+  align-items: center;
+}
+
+.container .content-box {
+  display: flex;
+}
+
+.content-row {
+  flex: 0 0 58%;
+  max-width: 58%;
+  padding: 0 1.5rem;
+}
+
+.content-row h2 {
+  margin-bottom: 2.5rem;
+  padding-right: 4rem;
+  font-size: 6rem;
+  font-weight: 800;
+  color: #000;
+  line-height: 1.1;
+}
+
+.content-row span {
+  color: #8368ff;
+}
+
+.content-row p {
+  font-size: 1.6rem;
+  padding-right: 5rem;
+}
+
+/* ABSOLUTE ELEMENTS */
+
+.abs-shape {
+  position: absolute;
+}
+
+.bg-txt-main {
+  top: 24%;
+  left: 8%;
+}
+
+.bg-dots-main {
+  left: 68%;
+  top: 34%;
+}
+
+.bg-man-main {
+  top: 10rem;
+  left: 51%;
+}
+
+/* BG TXT */
+
+.bg-txt-main h2 {
+  line-height: 16.8rem;
+  margin: 0;
+}
+
+.bg-txt-main h2 {
+  font-size: 14rem;
+  color: #ffae25;
+  opacity: 0.1;
+}
+
+.bg-txt-main span {
+  display: block;
+  color: #000;
+}
 
 /* ABOUT SECTION */
 
-#about {
+#s-about {
   margin: 8rem 0 0 0;
   padding: 12rem 0 12rem 0;
 }
 
 .about-box {
   background-color: rgba(255, 255, 0, 0.418);
-  display: flex;
-}
-
-.man-box {
-  flex: 0 1 50%;
-  max-width: 50%;
-  padding: 0 1.5rem;
-}
-
-.man-box-img {
-  align-self: stretch;
-  position: relative;
-}
-
-.man-box-img-absolute {
-  position: absolute;
-  top: 3rem;
-  right: 0;
+  display: grid;
+  grid-template-columns: 48% 48%;
+  grid-gap: 4%;
+  align-items: center;
 }
 
 .man-img {
-  top: 0;
-  left: 0;
+  margin-left: -250px;
 }
 
 .man-content {
-  flex: 0 1 50%;
+  /* flex: 0 1 50%;*/
   padding: 0 1.5rem;
 }
 
@@ -178,4 +255,20 @@ a {
 
 .man-title {
   margin-bottom: 5rem;
+}
+
+/* SERVICES SECTION */
+#services-section {
+  padding: 12rem 0;
+}
+
+.service-box {
+  display: flex;
+}
+
+.content-item {
+  /* flex: 50%; */
+}
+
+.cards-item {
 }

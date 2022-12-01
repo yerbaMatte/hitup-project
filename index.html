@@ -40,8 +40,23 @@
         <div class="search-cta-box">
           <ul class="search-cta">
             <li class="bar-box">
-              <a href="#"></a>
-              <input type="text" placeholder="Enter Name" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+                width="24"
+                height="24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                />
+              </svg>
+              <input class="search-box" type="text" placeholder="Enter Name" />
             </li>
             <li class="cta-box"><a class="orange-btn" href="#">Join Now</a></li>
           </ul>
@@ -49,28 +64,58 @@
       </div>
     </header>
     <main>
-      <section id="main-section"></section>
-      <section id="about">
+      <section id="s-main">
+        <div class="abs-shape bg-txt-main">
+          <h2>We Build<span>Champions</span></h2>
+        </div>
+        <div class="abs-shape bg-dots-main">
+          <img src="./assets/heade-object.png" alt="shape" />
+        </div>
+        <div class="abs-shape bg-man-main">
+          <img src="./assets/header-img.png" alt="shape" />
+        </div>
+        <div class="content-main">
+          <div class="container">
+            <div class="content-box">
+              <div class="content-row">
+                <h2>Perfect Workout Coach For <span>Body Shape</span></h2>
+                <p>
+                  Quisque leo augue, lobortis ac tellus nec, posuere ultricies
+                  nulla. Praesent massa odio, pellentesque in consectetur quis,
+                  volutpat sit amet erat.
+                </p>
+                <div>
+                  <a
+                    href="#"
+                    class="orange-btn"
+                    data-animation="fadeInRight"
+                    data-delay=".8s"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+              <!-- <div class=""></div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="s-about">
         <div class="container">
           <div class="about-box">
             <div class="man-box">
               <!-- TEST -->
 
               <!-- TEST -->
-              <div class="man-box-img">
-                <div class="man-box-img-absolute">
-                  <img
-                    class="man-img"
-                    src="./assets/about-img.png"
-                    alt="sportsman"
-                  />
-                </div>
-              </div>
+              <img
+                class="man-img"
+                src="./assets/about-img.png"
+                alt="sportsman"
+              />
             </div>
             <div class="man-content">
               <div class="man-title">
                 <h2>Let Us Find The Perfect Workout For You !</h2>
-                <img src="/assets/circle-line.png" alt="circle" />
+                <img src="./assets/circle-line.png" alt="circle" />
               </div>
               <p>
                 Fusce orci ligula, tincidunt ut metus vel, venenatis aliquet
@@ -91,6 +136,102 @@
                 tempus.
               </p>
               <a class="orange-btn" href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="s-services">
+        <div class="container">
+          <div class="service-box">
+            <div class="content-item">
+              <div class="content-box">
+                <div class="title-box">
+                  <h2>Build Your Body Transform Your Life</h2>
+                  <img src="./assets/circle-line.png" alt="circle" />
+                </div>
+                <p>
+                  Integer auctor est nec semper hendrerit. Etiam sollicitudin
+                  enim in urna commodo, in dapibus velit elementum. Ut congue
+                  nisl sapien, vel ultricies nulla tincidunt vitae. Maecenas non
+                  ligula quis massa consequat commodo eleifend ut velit.
+                </p>
+                <p>
+                  Aenean eleifend est eget eros molestie pretium. Curabitur
+                  varius velit in est elementum consectetur. Mauris in risus
+                  bibendum, laoreet ex at, lobortis risus. Nullam id massa eget
+                  ante finibus iaculis. Duis eget nisl ipsum. Vivamus ipsum
+                  urna, tristique vel arcu nec, elementum congue est. Nullam
+                  vitae aliquet turpis.
+                </p>
+              </div>
+            </div>
+            <div class="cards-item">
+              <div class="cards-box">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                      <div class="s-single-services text-center">
+                        <div class="services-icon">
+                          <img src="./assets/s-icon1.png" alt="sport-icon" />
+                        </div>
+                        <div class="second-services-content">
+                          <h5><a href="services-detail.html">Yoga</a></h5>
+                          <p>
+                            Nam pellentesque, velit at sodales elementum, neque
+                            metus ultricies justo, eget varius diam justo ac
+                            ante.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <div class="s-single-services text-center">
+                        <div class="services-icon">
+                          <img src="./assets/s-icon2.png" alt="sport-icon" />
+                        </div>
+                        <div class="second-services-content">
+                          <h5><a href="services-detail.html">Dance</a></h5>
+                          <p>
+                            Nam pellentesque, velit at sodales elementum, neque
+                            metus ultricies justo, eget varius diam justo ac
+                            ante.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <div class="s-single-services text-center active">
+                        <div class="services-icon">
+                          <img src="./assets/s-icon3.png" alt="sport-icon" />
+                        </div>
+                        <div class="second-services-content">
+                          <h5><a href="services-detail.html">Fitness</a></h5>
+                          <p>
+                            Nam pellentesque, velit at sodales elementum, neque
+                            metus ultricies justo, eget varius diam justo ac
+                            ante.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <div class="s-single-services text-center">
+                        <div class="services-icon">
+                          <img src="./assets/s-icon4.png" alt="sport-icon" />
+                        </div>
+                        <div class="second-services-content">
+                          <h5><a href="services-detail.html">Health</a></h5>
+                          <p>
+                            Nam pellentesque, velit at sodales elementum, neque
+                            metus ultricies justo, eget varius diam justo ac
+                            ante.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
