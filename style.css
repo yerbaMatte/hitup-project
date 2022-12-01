@@ -156,9 +156,14 @@ a {
   padding: 0 1.5rem;
 }
 
+.space {
+  width: 500px;
+}
+
 .content-row h2 {
+  margin-top: 0;
   margin-bottom: 2.5rem;
-  padding-right: 4rem;
+  padding-right: 8rem;
   font-size: 6rem;
   font-weight: 800;
   color: #000;
@@ -172,6 +177,8 @@ a {
 .content-row p {
   font-size: 1.6rem;
   padding-right: 5rem;
+  margin-bottom: 2.5rem;
+  margin-top: 0;
 }
 
 /* ABSOLUTE ELEMENTS */
