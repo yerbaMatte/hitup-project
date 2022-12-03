@@ -129,7 +129,7 @@ a {
   outline: none;
 }
 
-/* MAIN SECTION */
+/* HOME SECTION */
 #s-main {
   margin-top: -12rem;
   position: relative;
@@ -181,7 +181,7 @@ a {
   margin-top: 0;
 }
 
-/* ABSOLUTE ELEMENTS */
+/* ABSOLUTE ELEMENTS - Home Section */
 
 .abs-shape {
   position: absolute;
@@ -200,6 +200,7 @@ a {
 .bg-man-main {
   top: 10rem;
   left: 51%;
+  z-index: 10;
 }
 
 /* BG TXT */
@@ -220,11 +221,75 @@ a {
   color: #000;
 }
 
+/* BOOKING SECTION */
+
+#s-booking {
+  margin-top: -18rem;
+  z-index: 9;
+}
+
+.book-form {
+  background-color: rgba(255, 0, 0, 0.114);
+}
+
+.form-box {
+  flex: 1 0 100%;
+}
+
+.form-box ul li {
+  float: left;
+  margin-left: 3rem;
+  padding: 1.6rem 0;
+  width: 15%;
+}
+
+.form-box ul li:last-child {
+  width: 30%;
+}
+
+.book-form ul {
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  display: flex;
+}
+
+.contact-field input {
+  padding: 1rem 0 1rem 2.5rem;
+  font-size: 1.5rem;
+  border: none;
+  width: 100%;
+}
+
+.contact-field {
+  position: relative;
+}
+
+.contact-field img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+
 /* ABOUT SECTION */
 
 #s-about {
   margin: 8rem 0 0 0;
   padding: 12rem 0 12rem 0;
+  position: relative;
+}
+
+.bg-txt-about {
+  font-size: 100px;
+  font-weight: 800;
+  transform: rotate(90deg);
+  position: absolute;
+  right: -56px;
+  top: 45%;
+  color: #ffefd5;
 }
 
 .about-box {
@@ -271,11 +336,60 @@ a {
 
 .service-box {
   display: flex;
+  align-items: center;
 }
 
-.content-item {
-  /* flex: 50%; */
+.service-box > div {
+  padding: 0 1.5rem;
 }
+
+/* CONTENT */
+.service.content {
+  flex: 0 0 50%;
+}
+
+.service-content p {
+  margin: 0 0 1.5rem 0;
+  font-size: 1.5rem;
+  color: rgb(109, 109, 109);
+}
+
+.title-box {
+  margin: 0 0 5rem 0;
+}
+
+.title-box h2 {
+  font-size: 4.4rem;
+  line-height: 5.2rem;
+  margin: 0 0 0.8rem 0;
+}
+
+/* CARDS */
 
 .cards-item {
+  flex: 0 0 50%;
+  margin: 3rem 1.5rem 0 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-item {
+  flex: 0 0 50%;
+}
+
+.card-container {
+  text-align: center;
+  padding: 0 3rem 3rem;
+  box-shadow: 0.3rem 0.4rem 1.5rem #00000026;
+}
+
+.card-container a {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #000;
+}
+
+.card-container p {
+  font-size: 1.5rem;
+  color: rgb(109, 109, 109);
 }
