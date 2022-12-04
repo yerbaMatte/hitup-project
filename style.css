@@ -557,7 +557,7 @@ a {
 
 .video-link {
   position: absolute;
-  top: 33%;
+  top: 35%;
   left: 45%;
 }
 
@@ -601,4 +601,56 @@ a {
 
 .cards-container {
   display: flex;
+}
+
+.card {
+  flex: 0 0 33%;
+  padding: 0 1.5rem;
+}
+
+.pricing-head {
+  padding: 30px 0 0;
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.pricing-box {
+  background: url(./assets/price-bg.png);
+  background-repeat: no-repeat;
+  box-shadow: 3px 4px 15px #0000001a;
+  border-radius: 10px;
+  float: left;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+}
+
+.pricing-head h4 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 0 2.2rem 0;
+}
+
+.pricing-head .icon {
+  width: 84px;
+  height: 84px;
+  display: inline-block;
+  background: #a896ff 0% 0% no-repeat padding-box;
+  border-radius: 50%;
+  line-height: 84px;
+}
+
+.pricing-body ul {
+  padding: 0;
+}
+
+.pricing-body {
+  padding: 0px 50px 35px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 6rem;
 }
