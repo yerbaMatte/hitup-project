@@ -188,6 +188,7 @@ a {
 
 .abs-shape {
   position: absolute;
+  z-index: -1;
 }
 
 .bg-txt-main {
@@ -285,7 +286,7 @@ a {
   position: relative;
 }
 
-.bg-txt-about {
+.bg-txt-right {
   font-size: 100px;
   font-weight: 800;
   transform: rotate(90deg);
@@ -335,6 +336,17 @@ a {
 /* SERVICES SECTION */
 #s-services {
   padding: 12rem 0;
+  position: relative;
+}
+
+.bg-txt-left {
+  font-size: 100px;
+  font-weight: 800;
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -115px;
+  top: 50%;
+  color: #ffefd5;
 }
 
 .service-box {
@@ -413,6 +425,7 @@ a {
 /* SCHEDULE SECTION */
 #s-schedule {
   padding: 12rem 0;
+  position: relative;
 }
 
 .schedule-title {
@@ -509,4 +522,83 @@ a {
 
 .no-btm td {
   border-bottom: none;
+}
+
+/* VIDEO SECTION */
+#s-video {
+  background-color: #8368ff;
+  color: #fff;
+  overflow: hidden;
+}
+
+.video-container {
+  display: flex;
+  align-items: center;
+}
+
+.video-content,
+.video-box {
+  flex: 0 0 50%;
+  padding: 0 1.5rem;
+}
+
+.video-box {
+  position: relative;
+}
+
+.video-preview {
+  margin-right: -40rem;
+}
+
+.video-box img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.video-link {
+  position: absolute;
+  top: 33%;
+  left: 45%;
+}
+
+.video-content h2 {
+  font-size: 4.4rem;
+  line-height: 5.2rem;
+  margin: 0 0 0.8rem 0;
+}
+
+.video-content-title {
+  margin: 0 0 5rem 0;
+}
+
+.video-content p {
+  margin: 0 0 1.5rem 0;
+  font-size: 1.5rem;
+}
+
+/* PRICING SECTION */
+#s-pricing {
+  padding: 12rem 0 6rem 0;
+}
+
+.pricing-title h2 {
+  font-size: 4.4rem;
+  line-height: 5.2rem;
+  margin: 0 0 0.8rem 0;
+}
+
+.pricing-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+
+.pricing-box img {
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+.cards-container {
+  display: flex;
 }
