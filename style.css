@@ -409,3 +409,40 @@ a {
   font-size: 1.5rem;
   color: rgb(109, 109, 109);
 }
+
+/* SCHEDULE SECTION */
+#s-schedule {
+  padding: 12rem 0;
+}
+
+.schedule-title {
+  margin: 0 0 5rem 0;
+  text-align: center;
+}
+
+.schedule-title h2 {
+  font-size: 4.4rem;
+  margin: 0 0 0.8rem 0;
+  line-height: 5.2rem;
+}
+
+.schedule-content {
+  background-color: #f3f0ff;
+  border-radius: 1rem;
+  padding: 0.6rem 1rem;
+  margin: auto auto 4rem auto;
+  width: 80%;
+  display: flex;
+}
+
+.nav-item-schedule {
+  font-weight: 700;
+  line-height: 1.4rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  border: none;
+  color: #000;
+  flex: 1 1 auto;
+  text-align: center;
+  font-size: 1.5rem;
+}
