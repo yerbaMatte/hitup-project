@@ -446,3 +446,67 @@ a {
   text-align: center;
   font-size: 1.5rem;
 }
+
+.tab-container .icon {
+  background: #f2f0ff 0% 0% no-repeat padding-box;
+  border-radius: 1.5rem;
+  width: 6.4rem;
+  height: 6.4rem;
+  line-height: 6.4;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  display: inline-block;
+}
+
+.tab-container img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.tab-container h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2rem;
+  color: #374354;
+  line-height: 1.2;
+}
+
+.tab-container p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  margin: 0 0 0.5rem 0;
+}
+
+.tab-container span {
+  background: #ffefd3 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  display: inline-block;
+  width: 104px;
+  height: 26px;
+  line-height: 26px;
+  color: #ffae25;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  text-align: center;
+  line-height: 4.4rem;
+  padding: 2.5rem 0;
+  width: 25%;
+  border-right: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+}
+
+.table td:last-child {
+  border-right: none;
+}
+
+.no-btm td {
+  border-bottom: none;
+}
