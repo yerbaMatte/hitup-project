@@ -651,6 +651,7 @@ a {
   padding: 0;
   margin: 0;
   font-size: 1.8rem;
+  box-sizing: border-box;
 }
 
 .pricing-body li {
