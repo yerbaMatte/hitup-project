@@ -594,6 +594,7 @@ a {
   justify-content: center;
   margin-bottom: 6rem;
   align-items: center;
+  text-align: center;
 }
 
 .cards-container {
@@ -687,4 +688,5 @@ a {
 
 #s-testimonials {
   padding: 12 rem 0 9rem 0;
+  position: relative;
 }
