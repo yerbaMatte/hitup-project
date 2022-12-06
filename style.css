@@ -579,6 +579,8 @@ a {
 /* PRICING SECTION */
 #s-pricing {
   padding: 12rem 0 6rem 0;
+  text-align: center;
+  position: relative;
 }
 
 .pricing-title h2 {
@@ -591,12 +593,7 @@ a {
   display: flex;
   justify-content: center;
   margin-bottom: 6rem;
-}
-
-.pricing-box img {
-  text-align: center;
-  margin: auto;
-  display: block;
+  align-items: center;
 }
 
 .cards-container {
@@ -613,18 +610,18 @@ a {
   float: left;
   width: 100%;
   margin-bottom: 30px;
-  text-align: center;
 }
 
 .pricing-box {
   background: url(./assets/price-bg.png);
   background-repeat: no-repeat;
-  box-shadow: 3px 4px 15px #0000001a;
+  box-shadow: 3px 4px 15px #00000026;
   border-radius: 10px;
   float: left;
   width: 100%;
   position: relative;
   background-size: cover;
+  margin-bottom: 6rem;
 }
 
 .pricing-head h4 {
@@ -644,8 +641,19 @@ a {
   line-height: 84px;
 }
 
+.pricing-box img {
+  margin: auto;
+  vertical-align: middle;
+}
+
 .pricing-body ul {
   padding: 0;
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.pricing-body li {
+  margin-top: 1.5rem;
 }
 
 .pricing-body {
@@ -653,4 +661,30 @@ a {
   display: flex;
   flex-direction: column;
   margin-top: 6rem;
+  float: left;
+  width: 100%;
+}
+
+.price {
+  margin: 2rem 0 2.5rem 0;
+}
+
+.price h2 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 0;
+  color: #ffae25;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.price span {
+  font-size: 15px;
+  font-weight: 400;
+  color: #6d6d6d;
+}
+
+/* TESTIMONIAL SECTION */
+
+#s-testimonials {
+  padding: 12 rem 0 9rem 0;
 }
