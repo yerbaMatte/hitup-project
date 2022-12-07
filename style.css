@@ -790,3 +790,16 @@ a {
   height: 8px;
   width: 8px;
 }
+
+/* NEWS SECTION */
+#s-news {
+  padding: 10rem 0 9rem 0;
+}
+
+.font-awesome {
+  font-family: 'Font Awesome 5 Pro';
+}
+
+.fas-test::before {
+  content: '\f073';
+}
