@@ -696,6 +696,7 @@ a {
   width: 38rem;
   position: relative;
   overflow: auto;
+  float: left;
 }
 
 .testi-img {
@@ -755,4 +756,9 @@ a {
 .testi-bg p {
   margin: 0 0 2.5rem 0;
   font-size: 1.5rem;
+}
+
+.testimonials-cards {
+  width: 228rem;
+  /* transform: translate3d(-228rem, 0); */
 }
