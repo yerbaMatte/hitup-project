@@ -794,12 +794,24 @@ a {
 /* NEWS SECTION */
 #s-news {
   padding: 10rem 0 9rem 0;
+  position: relative;
 }
 
-.font-awesome {
+.fa-user:before {
+  content: '\f007';
   font-family: 'Font Awesome 5 Pro';
 }
 
-.fas-test::before {
-  content: '\f073';
+.fa,
+.fas {
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 900;
+}
+
+.blog-thumb img {
+  width: 100%;
+}
+
+.row {
+  display: flex;
 }
