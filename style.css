@@ -688,6 +688,71 @@ a {
 /* TESTIMONIAL SECTION */
 
 #s-testimonials {
-  padding: 12 rem 0 9rem 0;
+  padding: 12rem 0 9rem 0;
   position: relative;
+}
+
+.testi-card {
+  width: 38rem;
+  position: relative;
+  overflow: auto;
+}
+
+.testi-img {
+  position: absolute;
+  top: 30%;
+  left: 2.9rem;
+  z-index: 1;
+  margin-bottom: 2rem;
+}
+
+.testi-bg {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 3px 4px 15px #0000001a;
+  border-radius: 10px;
+  width: 92%;
+  float: right;
+  padding: 0px 15px 0px 120px;
+  margin: 20px;
+  margin-top: 20px;
+  color: #6d6d6d;
+  margin-top: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.testi-bg::before {
+  content: '';
+  position: absolute;
+  background: #8368ff;
+  width: 20%;
+  height: 100%;
+  left: 0;
+  z-index: 0;
+}
+
+.com-icon {
+  position: absolute;
+  right: 10%;
+  top: 3rem;
+}
+
+.testi-author {
+  margin: 3rem 0 1.5rem 0;
+}
+
+.testi-author h6 {
+  font-size: 2rem;
+  margin: 0 0 0.5rem 0;
+  color: #2a2e48;
+}
+
+.testi-author span {
+  color: #ffae25;
+  font-size: 14px;
+}
+
+.testi-bg p {
+  margin: 0 0 2.5rem 0;
+  font-size: 1.5rem;
 }
