@@ -297,7 +297,6 @@ a {
 }
 
 .about-box {
-  background-color: rgba(255, 255, 0, 0.418);
   display: grid;
   grid-template-columns: 48% 48%;
   grid-gap: 4%;
@@ -792,26 +791,139 @@ a {
 }
 
 /* NEWS SECTION */
-#s-news {
+#s-blog {
   padding: 10rem 0 9rem 0;
   position: relative;
 }
 
-.fa-user:before {
-  content: '\f007';
-  font-family: 'Font Awesome 5 Pro';
-}
-
-.fa,
-.fas {
-  font-family: 'Font Awesome 5 Pro';
-  font-weight: 900;
-}
-
 .blog-thumb img {
   width: 100%;
+  vertical-align: middle;
+}
+
+.blog-content {
+  padding-top: 3rem;
+}
+
+.blog-container {
+  display: flex;
+}
+
+.blog-card {
+  flex: 0 1 34%;
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+.single-post {
+  padding: 3rem;
+  margin-bottom: 3rem;
+}
+
+.blog-thumb {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0.3rem 0.4rem 1.5rem rgba(0, 0, 0, 0.306);
+}
+
+.blog-thumb .ct-link {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.blog-thumb .ct-link a {
+  background: #ffae25 0% 0% no-repeat padding-box;
+  border-radius: 0.5rem;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+
+.date-and-author-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -1.5rem;
+  margin-left: -1.5rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.date-and-author-container .date,
+.date-and-author-container .author {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 1.5rem 0 1.5rem;
+  font-size: 1.5rem;
+}
+
+.blog-icon {
+  margin-right: 0.5rem;
+  color: #ffae25;
+}
+
+.blog-content h4 {
+  font-size: 1.9rem;
+  margin: 0 0 2rem 0;
+  line-height: 1.3;
+}
+
+.blog-content a {
+  color: black;
+}
+
+.blog-content p {
+  line-height: 2.5rem;
+  margin: 0 0 1.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.blog-btn a {
+  display: inline-block;
+  color: #ffae25;
+  line-height: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.blog-btn a i {
+  margin-left: 5px;
+}
+
+/* FOOTER */
+
+#footer {
+  background: #8368ff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 130px 130px 0px 0px;
+  padding-top: 9rem;
 }
 
 .row {
   display: flex;
+  flex-wrap: wrap;
+  margin-right: -1.5rem;
+  margin-left: -1.5rem;
+}
+
+.col-xl-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-xl-2 {
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+}
+
+.col-xl-2 {
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+}
+
+.col-xl-5 {
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
 }
